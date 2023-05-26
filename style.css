@@ -1,0 +1,80 @@
+img  {
+  border: solid red;
+  height: 200px;
+  width: 200px;
+}
+
+.logoContainer {
+  border: solid blue;
+  display: flex;
+  justify-content:space-between;
+
+}
+
+.menuContainer {
+  border: solid green;
+
+
+}
+
+.menus {
+  padding: 0 1em ;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.logo, .magnify {
+  height: 50px;
+  width: 50px;
+  
+}
+
+.imageContainer {
+  border: solid orangered;
+  background-image: url("https://toyotaassets.scene7.com/is/image/toyota/lexus-homepage-electrified-hero-desktop-1920x795-LEX-FLN-MY23-0021?wid=1920&hei=795");
+  object-fit: fill;
+  height: 550px;
+
+  
+
+}
+
+.Title {
+  text-align:center;
+  color: white;
+}
+
+.text{
+  text-align: center;
+  color: white;
+
+}
+
+.explore {
+  color: black;
+  padding: 1em 3em;
+  margin-left: 570px;
+  margin-top: 350px;
+
+
+}
+
+.explore:hover {
+  background-color: blue; 
+  color: white;
+}
+
+
+.shoppingContainer {
+  border: solid purple;
+}
+
+.shoppingTools {
+  text-align: center;
+  font-size: 2em;
+}
+
+.tools{
+  border: solid greenyellow;
+  display:flex;
+}
