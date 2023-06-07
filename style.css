@@ -1,18 +1,19 @@
 img  {
-  border: solid red;
+  /* border: solid red; */
   height: 200px;
   width: 200px;
 }
 
 .logoContainer {
-  border: solid blue;
+  /* border: solid blue; */
   display: flex;
   justify-content:space-between;
+
 
 }
 
 .menuContainer {
-  border: solid green;
+  /* border: solid green; */
 
 
 }
@@ -28,10 +29,14 @@ img  {
   width: 50px;
   
 }
+.logo {
+  width: 150px;
 
+
+}
 .imageContainer {
-  border: solid orangered;
-  background-image: url("https://toyotaassets.scene7.com/is/image/toyota/lexus-homepage-electrified-hero-desktop-1920x795-LEX-FLN-MY23-0021?wid=1920&hei=795");
+  /* border: solid orangered; */
+  background-image: url("https://toyotaassets.scene7.com/is/image/toyota/Lexus-GX-TX-homepage-desktop-1920%C3%97795-LEX-FLN-MY24-0003?wid=1920&hei=795");
   object-fit: fill;
   height: 550px;
 
@@ -66,7 +71,21 @@ img  {
 
 
 .shoppingContainer {
-  border: solid purple;
+  /* border: solid purple; */
+  display: flex;
+  justify-content: center;
+  
+}
+.shoppingContainer img {
+  height: 50px;
+  width: 50px;
+  margin: auto;
+ 
+
+}
+.shoppingContainer p {
+  text-align: center;
+
 }
 
 .shoppingTools {
@@ -75,6 +94,45 @@ img  {
 }
 
 .tools{
-  border: solid greenyellow;
-  display:flex;
+  /* border: solid greenyellow; */
+  margin: 40px;
+}
+.offers {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.offers img {
+  width: 400px;
+}
+
+.offers p {
+  text-align: center;
+}
+
+
+h2 {
+  text-align: center;
+}
+
+.txt {
+  /* max-width: 300px; */
+  margin: 10px;
+  
+}
+.carContainer {
+  margin: 10px;
+}
+
+h6 {
+  font-size: 1.5em;
+  margin: 0;
+  margin-top: 10px;
+}
+
+button {
+  padding: 10px 4em;
+  border: solid;
+  font-weight: bold;
+
 }
