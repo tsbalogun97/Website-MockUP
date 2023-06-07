@@ -131,8 +131,17 @@ h6 {
 }
 
 button {
-  padding: 10px 4em;
+  padding: 10px 5em;
   border: solid;
   font-weight: bold;
-
+  Cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+  
+ 
 }
+ 
+button:hover {
+  background-color: black;
+  color: white;
+}
+ 
